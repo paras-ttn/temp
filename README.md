@@ -7,26 +7,20 @@ eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm5
 2000111080
 622503056812
 
-curl 'https://mprodev.axismaxlife.com/api/illustrations/runProductIllustrations' \
-  -H 'accept: application/json, text/plain, */*' \
+curl 'https://mprodevms.maxlifeinsurance.com/api/transformerservice/login/redirectToMpro' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
   -H 'accept-language: en-US,en;q=0.9' \
-  -H 'agentid;' \
-  -H 'apitoken: eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIyMDAwMTExMDY5In0sImp0aSI6IjgxY2NjYWIyLTBkOGEtNDM0ZC05ZjBjLTFlNGY4MjAyZWM0NyIsImlhdCI6MTc2NzMzNDA5MSwiZXhwIjoxNzY3OTM4ODkxfQ.W3GVLvdyo_yiGnu5HiwTa8jFfznNF0IX8nim7XYIciE' \
-  -H 'browserid;' \
-  -H 'content-type: application/json;charset=UTF-8' \
-  -b '_vwo_uuid_v2=D9FF71CE70C6843D1023D69175288B177|61a93f0cab48e93addedf58e2b55b5f4; _vwo_uuid=D9FF71CE70C6843D1023D69175288B177; _vis_opt_s=1%7C; _vwo_ds=3%3At_1%2Ca_1%3A0%241766746313%3A41.033278%3A39_1_0_2%2C41_1_0_2%3A%3A2_1%2C1_1%3A1%3A1766746313%3A1766746313%3A2' \
-  -H 'issplogincase: true' \
+  -H 'cache-control: max-age=0' \
+  -H 'content-type: application/x-www-form-urlencoded' \
   -H 'origin: https://mprodev.axismaxlife.com' \
-  -H 'priority: u=1, i' \
-  -H 'referer: https://mprodev.axismaxlife.com/journey/Mg==?source=TVBSTw===&transactionId=MjAwMDExMTA2OQ==' \
-  -H 'responseagentid: [object Object]' \
+  -H 'priority: u=0, i' \
+  -H 'referer: https://mprodev.axismaxlife.com/' \
   -H 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Windows"' \
-  -H 'sec-fetch-dest: empty' \
-  -H 'sec-fetch-mode: cors' \
-  -H 'sec-fetch-site: same-origin' \
-  -H 'transactionid: 2000111069' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'upgrade-insecure-requests: 1' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
-  -H 'x-correlation-id: 9627e8f5-6c29-49c1-bc99-58bb1e9c4b12' \
-  --data-raw '{"request":{"data":{"formType":"self","firstName":"UDIT ","lastName":"Kumar ","gender":"M","nationality":"indian","permanentReflexive":"no","communicationState":"TAMIL NADU","desiredAnnualIncome":"no","annualIncome":"1000000","productName":"Axis Max Life Smart Wealth Plan","premiumPaymentTerm":6,"policyTerm":7,"transactionId":"2000111069","id":"695760c6eaf33a47d46195d3","email":"uditkumar@gmail.com","insurerName":"UDIT Kumar","insurerGender":"M","isAgentSelf":"FAILURE","isNewBankOrCaJourney":false,"isFormCSchemeAJourney":false,"isFormCSchemeBJourney":false,"GSTWaiverRequired":"no","effectiveDateOfCoverage":"2026-01-02","permanentState":"TAMIL NADU","variant":"Short Term Income","modeOfPayment":"Annual","premiumCommitment":"500000","incomePayoutFrequency":"Annual","requestSource":"MPRO","isCATChannel":"N","proposerAge":39,"productId":"133","stateKey":"TN","maxState":null,"maxStateKey":"HR","customerDiscount":"no","agentId":null,"insurerLastName":"Kumar ","isDefenceChannel":"no","PSMAnnualIncome":"2000000","checkPSMQuestion":"Yes","isPOSP":false,"isIPCJourney":"N","isBajajCapitalChannel":false,"isCSFBChannel":"No","customerSignDate":"","irpFundsSelectedValue":{}}}}'
+  --data-raw 'payload=7RVoHgkzHwSXLLNrkBN%2Fp6XGR%2BcIvr3PRWfLQ8XyTsoxl%2FqYbBAHOqlhuEDJYrn7HbaUPwaJsUrr%2F1uP0cZUkVgP9QtfJ2Kpq5SwgBODixwYtB4M1M4xnDfcVXDSxVokv6Kn&token=eyJraWQiOiJiOUxMcWM3V2lMbGc1NjErVVwvU3JxV3JsbFU1RkM2V1kzY1RrXC9NVFRUVGM9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2amE3YWdtNWk2M3MycThuaXNsczlwMWh1ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoibXByby1waGFub3NcL3JlYWQgbXByby1waGFub3NcL3dyaXRlIiwiYXV0aF90aW1lIjoxNzY3MzU0MTYwLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzFicDl2NUI2ciIsImV4cCI6MTc2NzM1Nzc2MCwiaWF0IjoxNzY3MzU0MTYwLCJ2ZXJzaW9uIjoyLCJqdGkiOiJhNDY2NWJjNS1kZmY0LTQ1NzUtYWQzNS05MGY2NTVlMDhkNzIiLCJjbGllbnRfaWQiOiI2amE3YWdtNWk2M3MycThuaXNsczlwMWh1ZSJ9.HX-4kV66n11EIk87RCtpLWKHxhgMNpZzjGtLp2iOR_yjVw9X0sgasfEzH3P03QvHN4npf5a2VeAVVdO7hp583nsz1cAyK_KGzGTmKKDmEZdNfTQ5-aRMqcAbAOMkxlJ13SI1gsLvqLEsbjsE0ad_CJLeFIBaEC_kJoe-W9Jn2hBTRgp4WAkbx_KahMy-Wgi8ebSOrYSHi3p2UuEKxLqdT2IHKVmQlRjur3x4yU8g96kRp5OfOSNxQBrN7rZ15UlN23JapvZYccDO5YnnkEBDCJN7_uanA3GwsR6mDh6MFtFRFNxhQmsaiUOenhg-pXgRTz5XQm_MArVoEzcywgO2hw'
