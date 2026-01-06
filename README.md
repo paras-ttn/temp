@@ -1,23 +1,2 @@
-curl 'https://mprodev.axismaxlife.com/api/illustrations/runProductIllustrations' \
-  -H 'accept: application/json, text/plain, */*' \
-  -H 'accept-language: en-US,en;q=0.9' \
-  -H 'agentid;' \
-  -H 'apitoken: eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIyMDAwMTExMTExIn0sImp0aSI6ImJlNGM0NmY0LTlkYzYtNGQ3Zi1iZWJhLWMwMzZkZmRiMjljMCIsImlhdCI6MTc2NzYxMjgwOCwiZXhwIjoxNzY4MjE3NjA4fQ.aBu2W20Poa8_6U_2HvsKiImroRLKTaJz84LqBPhzQJE' \
-  -H 'browserid;' \
-  -H 'content-type: application/json;charset=UTF-8' \
-  -b '_vwo_uuid_v2=D9FF71CE70C6843D1023D69175288B177|61a93f0cab48e93addedf58e2b55b5f4; _vwo_uuid=D9FF71CE70C6843D1023D69175288B177; _vis_opt_s=1%7C; _vwo_ds=3%3At_1%2Ca_1%3A0%241766746313%3A41.033278%3A39_1_0_2%2C41_1_0_2%3A%3A2_1%2C1_1%3A1%3A1766746313%3A1766746313%3A2; msalesredirectionUrl=https://mprodevms.maxlifeinsurance.com/api/transformerservice/login/redirectToMpro; payload=ptspXixDopYSOtq1Nz36qRSRFZ0Ga4JCPXQWzzoX0+xTNmidynFSx3VRJe9IruMuZzWi3D+vGDISFK2YSV/V2FXNDHm+4UBpZqErqfpdIRMyS149ZhkeIRlDMvi0uC9FJePT; token=eyJraWQiOiJiOUxMcWM3V2lMbGc1NjErVVwvU3JxV3JsbFU1RkM2V1kzY1RrXC9NVFRUVGM9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2amE3YWdtNWk2M3MycThuaXNsczlwMWh1ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoibXByby1waGFub3NcL3JlYWQgbXByby1waGFub3NcL3dyaXRlIiwiYXV0aF90aW1lIjoxNzY3NjEyODAzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzFicDl2NUI2ciIsImV4cCI6MTc2NzYxNjQwMywiaWF0IjoxNzY3NjEyODAzLCJ2ZXJzaW9uIjoyLCJqdGkiOiI3MjQwMTczZi05MDIzLTQ0OWEtOTVhYi1hNDlhZmQ3NGUwNjUiLCJjbGllbnRfaWQiOiI2amE3YWdtNWk2M3MycThuaXNsczlwMWh1ZSJ9.krmJEZIpSOj7IFxUm4N_bVSD6WZzP49fwq49ssbLTtxWmhbOXTJl6ToZm1kRhlrWeO2eTuj5QRd7tDNJcVEV4n0F-JDrHd4ySTFd3ghUl5xRuApY_npWAzGpBG7xzalUIPydwmxY3xlfw0cUwtcXhP_nOvoyQWlsrIJFUMwizop6jpDx2rxPZJdZ3cJ4FjLNcjwLwaZnxaVllPScFgH7B9_6yg6woAQxdgg6yL82tYIxIy6UPOKZZc79R42df5QsOkgNWzUF75w13P95d4K-t8T-PbusXrpIzgsQpIHP_2pcf5ElR54lLcPfF5Be8nLJ_-1q3e7LMqvlIpc-zo40Lw' \
-  -H 'issplogincase: true' \
-  -H 'origin: https://mprodev.axismaxlife.com' \
-  -H 'priority: u=1, i' \
-  -H 'referer: https://mprodev.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MjAwMDExMTExMQ==' \
-  -H 'responseagentid: [object Object]' \
-  -H 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
-  -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "Windows"' \
-  -H 'sec-fetch-dest: empty' \
-  -H 'sec-fetch-mode: cors' \
-  -H 'sec-fetch-site: same-origin' \
-  -H 'transactionid: 2000111111' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
-  -H 'x-correlation-id: cdf8ae30-8686-4db5-a8e2-0ae6a8129600' \
-  --data-raw '{"request":{"data":{"formType":"self","firstName":"UDIT ","lastName":"Kumar ","gender":"M","nationality":"indian","permanentReflexive":"no","communicationState":"TAMIL NADU","desiredAnnualIncome":"no","annualIncome":"1000000","productName":"Axis Max Life Smart Wealth Plan","premiumPaymentTerm":6,"policyTerm":7,"transactionId":"2000111111","id":"695ba184912c26540ea7f633","email":"uditkumar@gmail.com","insurerName":"UDIT Kumar","insurerGender":"M","isAgentSelf":"FAILURE","isNewBankOrCaJourney":false,"isFormCSchemeAJourney":false,"isFormCSchemeBJourney":false,"GSTWaiverRequired":"no","effectiveDateOfCoverage":"2026-01-05","permanentState":"TAMIL NADU","variant":"Short Term Income","modeOfPayment":"Annual","incomePayoutFrequency":"Annual","premiumCommitment":"500000","requestSource":"SP_REDIRECT","isCATChannel":"N","proposerAge":39,"productId":"133","stateKey":"TN","maxState":null,"maxStateKey":"HR","customerDiscount":"no","agentId":null,"insurerLastName":"Kumar ","isDefenceChannel":"no","PSMAnnualIncome":"1500000","checkPSMQuestion":"Yes","isPOSP":false,"isIPCJourney":"N","isBajajCapitalChannel":false,"isCSFBChannel":"No","customerSignDate":"","isSPLoginCase":true,"channelName":"X","irpFundsSelectedValue":{}}}}'
+
+https://mprodev.axismaxlife.com/journey/MQ==?source=U1BfUkVESVJFQ1Q=&apitoken=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd1lYbHNiMkZrSWpwN0luVjBiVU52WkdVaU9tNTFiR3dzSW5KbGMzQnZibk5sUVdkbGJuUWlPbTUxYkd3c0luTnZkWEpqWlNJNklsTlFYMUpGUkVsU1JVTlVJaXdpZFhObGNpSTZJaUlzSW5SeVlXNXpZV04wYVc5dVNXUWlPaUl5TURBd01URXhNVE15SW4wc0ltcDBhU0k2SW1Nd1pHUm1Oekl6TFdZeE1UZ3RORFUxTXkwNU1XWmhMVFF6WldJMk1USTJaakV3TUNJc0ltbGhkQ0k2TVRjMk56WTNOVEkzTXl3aVpYaHdJam94TnpZNE1qZ3dNRGN6ZlEuV2tuZmp2cFhUdE4wRHAtZjlJc3duUHNtYmtNRU4zck5ibUNYUHdRYVE5bw==
