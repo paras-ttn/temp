@@ -57,3 +57,64 @@ Ours
 }
 
 
+{
+    "request": {
+        "data": {
+            "formType": "self",
+            "firstName": "Raman ",
+            "lastName": "Kumar ",
+            "gender": "M",
+            "nationality": "indian",
+            "permanentReflexive": "no",
+            "communicationState": "TAMIL NADU",
+            "permanentState": "TAMIL NADU",
+            "desiredAnnualIncome": "no",
+            "annualIncome": "1000000",
+            "productName": "Axis Max Life Smart Wealth Plan",
+            "premiumCommitment": "500000",
+            "modeOfPayment": "Annual",
+            "effectiveDateOfCoverage": "2026-01-12",
+            "premiumPaymentTerm": 5,
+            "policyTerm": 10,
+            "transactionId": "2000111367",
+            "id": "6964df4d5ecc200cd278663a",
+            "email": "uditkumar@gmail.com",
+            "insurerName": "Raman Kumar",
+            "insurerGender": "M",
+            "requestSource": "AXIS",
+            "smartWithdrawalPayoutStartYear": 0,
+            "isAgentSelf": "FAILURE",
+            "isNewBankOrCaJourney": false,
+            "variant": "Lump Sum",
+            "GSTWaiverRequired": "No",
+            "isFormCSchemeAJourney": false,
+            "isFormCSchemeBJourney": false,
+            "agentName": "Mr. Abhishek Roy",
+            "goCode": "2618",
+            "channelName": "X",
+            "isCATChannel": "N",
+            "proposerAge": 39,
+            "productId": "133",
+            "stateKey": "TN",
+            "maxState": "West Bengal",
+            "maxStateKey": "HR",
+            "customerDiscount": "no",
+            "agentId": "655393",
+            "insurerLastName": "Kumar ",
+            "isDefenceChannel": "no",
+            "PSMAnnualIncome": "1000000",
+            "checkPSMQuestion": "Yes",
+            "isPOSP": false,
+            "isIPCJourney": "N",
+            "isBajajCapitalChannel": false,
+            "isCSFBChannel": "No",
+            "customerSignDate": "",
+            "journeyType": "J3",
+            "agentPlace": "West Bengal",
+            "productCode": "133",
+            "spCode": ""
+        }
+    }
+}
+
+
