@@ -1,1 +1,59 @@
-https://mprodev.axismaxlife.com/journey/MQ==?source=U1BfUkVESVJFQ1Q=&apitoken=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd1lYbHNiMkZrSWpwN0luVjBiVU52WkdVaU9tNTFiR3dzSW5KbGMzQnZibk5sUVdkbGJuUWlPbTUxYkd3c0luTnZkWEpqWlNJNklsTlFYMUpGUkVsU1JVTlVJaXdpZFhObGNpSTZJaUlzSW5SeVlXNXpZV04wYVc5dVNXUWlPaUl5TURBd01URXhNekl5SW4wc0ltcDBhU0k2SWpWbFpEVmtPRFZpTFRrME5ESXROR0UxWkMwNU16UmpMVGMxTXpCaU1UZzBNalF3WlNJc0ltbGhkQ0k2TVRjMk9ERTVOREF3Tnl3aVpYaHdJam94TnpZNE56azRPREEzZlEuUmpMRE5MWE00MzBPRkZvOGU0UngtSXozUHlvTXJUam5TU1RsYThjZElDUQ==
+Ours
+{
+    "request": {
+        "data": {
+            "formType": "self",
+            "firstName": "UDIT ",
+            "lastName": "Kumar ",
+            "gender": "M",
+            "permanentReflexive": "no",
+            "communicationState": "TAMIL NADU",
+            "desiredAnnualIncome": "no",
+            "annualIncome": "1000000",
+            "productName": "Axis Max Life Smart Wealth Plan",
+            "premiumPaymentTerm": 5,
+            "policyTerm": 10,
+            "transactionId": "2000111369",
+            "id": "6964e2c55ecc200cd278663c",
+            "email": "uditkumar@gmail.com",
+            "insurerName": "UDIT Kumar",
+            "insurerGender": "M",
+            "isAgentSelf": "FAILURE",
+            "isNewBankOrCaJourney": false,
+            "isFormCSchemeAJourney": false,
+            "isFormCSchemeBJourney": false,
+            "nationality": "indian",
+            "GSTWaiverRequired": "no",
+            "effectiveDateOfCoverage": "2026-01-12",
+            "permanentState": "TAMIL NADU",
+            "variant": "Lump Sum",
+            "modeOfPayment": "Annual",
+            "smoker": "no",
+            "premiumCommitment": "500000",
+            "requestSource": "SP_REDIRECT",
+            "isCATChannel": "N",
+            "proposerAge": 39,
+            "productId": "133",
+            "stateKey": "TN",
+            "maxState": null,
+            "maxStateKey": "HR",
+            "customerDiscount": "no",
+            "agentId": null,
+            "insurerLastName": "Kumar ",
+            "isDefenceChannel": "no",
+            "PSMAnnualIncome": "1000000",
+            "checkPSMQuestion": "Yes",
+            "isPOSP": false,
+            "isIPCJourney": "N",
+            "isBajajCapitalChannel": false,
+            "isCSFBChannel": "No",
+            "customerSignDate": "",
+            "journeyType": "J3",
+            "isSPLoginCase": true,
+            "channelName": "X",
+            "irpFundsSelectedValue": {}
+        }
+    }
+}
+
+
